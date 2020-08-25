@@ -1,0 +1,12 @@
+the description says white SPACE ship which points to the whitespace programming language.
+On searching ,we find an ide to compile the program
+https://vii5ard.github.io/whitespace/
+thus on compiling ,we see that the code is pushing some ascii values to the stack.
+thus , we can decode them
+OR
+we can output the text using tab at each next line T	L
+
+
+
+HINT:
+on dcoding the brainfuck lang , the hint is "weird programming languages" which if searched on google gives a resuult of whitespaces.

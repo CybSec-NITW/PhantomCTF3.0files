@@ -1,0 +1,11 @@
+{
+
+    "id": 34,
+
+    "username": "admin",
+
+    "password": "pCTF{jwt_t0k3ns_ar3_gr3}",
+
+    "iat": 1596844412
+
+}

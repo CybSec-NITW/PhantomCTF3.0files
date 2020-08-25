@@ -1,0 +1,3 @@
+dir /R
+
+notepad hidden:flagmtxt

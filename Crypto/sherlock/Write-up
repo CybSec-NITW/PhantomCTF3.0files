@@ -1,0 +1,3 @@
+It looks like gibberish initially, but the mention of the word caps is a hint.
+The first letters of all the sentences gives us the key - pepper
+The encoded text looks like Vigenere cipher, decoding it with the correct key will give the flag!

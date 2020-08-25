@@ -1,0 +1,18 @@
+1.unzip fbirecords.zip
+2.cd fbirecords/
+
+png.png file is present in fbirecords
+we analyse it :
+3.file png.png
+it is actually a zip file , change the extension to .zip
+4.unzip png.zip
+
+enter folder called cd
+5.cd cd
+we find an image called cctv.jpeg
+
+6.steghide extract -sf cctv.jpeg
+
+7 cat notflag.txt 
+pCTF{cL4rk_1v4N_<3_$}
+

@@ -1,0 +1,7 @@
+The qr code is distorted in such a way that it cannot be scanned . So , it needs to be reconstructed again .
+On searching the web about it , i found a site qrazy.com for recreating qr code .
+It clearly is a version 2 qr code .When reconstructed , it gives us a link to a website .
+When we examine the site , and go to about page , we see many qr codes .
+On scrolling down , we get 8 qr codes which when scanned give 4 letters each .
+These when connected together leads us to the flag.
+#pctf{sc4nn1ng_sh0uld_b3_m4d3_1ll3g4l}

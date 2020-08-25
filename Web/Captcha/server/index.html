@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Captcha</title>
+</head>
+<body>
+<p id="captcha">
+    Captcha: ${captcha}
+</p>
+<br>
+<div>
+    <input type="text" id="captcha-input" placeholder="Enter the captcha">
+</div>
+<div>
+    <input type="number" id="key-input" placeholder="Enter the key">
+</div>
+<div>
+    <button onclick="onSubmit()">Submit</button>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+    function onSubmit() {
+        const body = {
+            captcha: $('#captcha-input').val(),
+            key: $('#key-input').val()
+        };
+        const URL = 'http://localhost:8000';
+        $.ajax({
+            type: "POST",
+            url: URL,
+            crossOrigin: true,
+            data: body,
+            success: response => alert(response),
+            error: response => {
+                alert(response.responseText);
+                location.reload();
+            }
+        });
+    }
+</script>
+</html>

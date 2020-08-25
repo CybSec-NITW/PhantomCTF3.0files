@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: cabin.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Asuna has long, orange-brownish chestnut hair and hazel eyes.[1] In the early levels of SAO, she wore a dark red leather tunic with a lightweight copper breastplate and leather pants with boots up to the knees along with a hooded cape.[7] After joining the «Knights of the Blood», she wore a red and white uniform that all KoB members wear[1] and wielded a rapier made by Lisbeth, called the «Lambent Light».[8]. After the Ordinal Scale Incident, Asuna started wearing the promise ring given to her by Kazuto on her left ring finger.
+---

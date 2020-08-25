@@ -1,0 +1,1 @@
+using cheat engine we need to bring down the health bar of bad creatures to 0. 

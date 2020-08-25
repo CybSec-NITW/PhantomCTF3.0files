@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Break The Door </title>
+    </head>
+
+        <script>
+            function maximum_security(){
+                console.log("nice try idiot")
+                document.getElementById('no').checked = true;
+            }
+        </script>
+
+    <body>
+        Ask me for the flag and you can have it </br></br>
+        
+        Do you want the flag?
+        <form action="/get_flag" method="post">
+            <input type="radio" onclick="maximum_security()" id="yes" name="flag" value="yes">
+            <label for="yes"> YES </label><br>
+            <input type="radio"  id="no" name="flag" value="no">
+            <label for="no"> NO </label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
+
